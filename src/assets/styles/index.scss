@@ -1,0 +1,59 @@
+@use 'variables' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+  background: $bg-color;
+}
+
+// 重置 element-plus 样式
+.el-button--primary {
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+// 页面标题
+.page-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+// 卡片样式
+.el-card {
+  border-radius: 8px;
+}
+
+// 表格工具栏
+.table-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+// 通用间距
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+// 通用padding
+.p-16 {
+  padding: 16px;
+}
